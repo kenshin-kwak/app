@@ -4,8 +4,8 @@ app = Flask(__name__)
  
 @app.route("/")
 def hello():
-    return "Hello from my-app deployed via ArgoCD! #6"
+    return "Hello from my-app deployed via ArgoCD! #7"
 
 if __name__ == "__main__":
-    app.run(host="0.0.0.0", port=8081)
+    app.run(host="0.0.0.0", port=8080)
 
